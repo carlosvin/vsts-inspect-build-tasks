@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p forgotten-todos",
-    "package": "tfx extension create"
+    "package": "tfx extension create",
+    "test": "mocha forgotten-todos/tests/_suite.js"
   },
   "dependencies": {
     "@types/node": "^8.0.56",
