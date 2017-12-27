@@ -1,0 +1,4 @@
+node_modules
+*.vsix
+.taskkey
+forgotten-todos/todos.junit.xml

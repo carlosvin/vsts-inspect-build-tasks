@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-inspect-build-tasks",
+    "name": "Build inspect tasks",
+    "version": "0.1.14",
+    "publisher": "carlsa",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tasks to inspect build steps",
+    "categories": [
+        "Build and release"
+    ],
+    "files": [
+        {
+            "path": "forgotten-todos"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "vsts-inspect-build-tasks",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Build inspect tasks"
+            }
+        }
+    ]
+}

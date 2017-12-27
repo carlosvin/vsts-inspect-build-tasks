@@ -1,0 +1,25 @@
+{
+  "name": "vsts-inspect-build-tasks",
+  "version": "1.0.0",
+  "description": "VSTS Task to inspect the build steps",
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "author": "carlosvin",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p forgotten-todos",
+    "package": "tfx extension create"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.56",
+    "vsts-task-lib": "^2.0.7",
+    "xmlbuilder": "^9.0.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "tfx-cli": "^0.4.9",
+    "typescript": "^2.6.2"
+  }
+}
