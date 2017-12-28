@@ -1,6 +1,6 @@
 {
   "name": "vsts-inspect-build-tasks",
-  "version": "1.0.0",
+  "version": "0.1.15",
   "description": "VSTS Task to inspect the build steps",
   "repository": {
     "type": "git",
