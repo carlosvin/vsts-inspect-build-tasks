@@ -26,7 +26,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "Build inspect tasks"
+                "name": "forgotten-todos"
             }
         }
     ]
