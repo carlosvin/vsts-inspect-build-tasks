@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-inspect-build-tasks",
-    "name": "Build inspect tasks",
+    "name": "Inspect build tasks",
     "version": "0.1.14",
     "publisher": "carlsa",
     "targets": [
